@@ -1,0 +1,51 @@
+body{
+    
+    background: linear-gradient(to right,rgb(217, 227, 210), rgb(212, 236, 165));
+    /* color: aliceblue; */   
+}
+
+.firstpart{
+    background-image: url("OIP.jpg");
+    background-size: cover;
+    height: 250px; 
+}
+.twoSearch{
+    display: flex;
+    justify-content: center;
+    
+}
+.head{
+    text-align: center;
+    padding-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.lab{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 20px;
+
+}
+.secCon{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+input{
+    size: 20vh,35vw;
+    font-size: medium;
+}
+
+
+
+@media (max-width:500px) {
+    .secCon{
+        flex-direction: column;
+    }
+    button{
+        font-size:small;
+       
+    }
+    
+}
